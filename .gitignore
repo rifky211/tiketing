@@ -1,129 +1,47 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+<html>
+<head>
+<title>Minggo.co.id</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="js/js-image-slider.css" rel="stylesheet" type="text/css" />
+<script src="js/js-image-slider.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bitter:400,700">
+<link href="generic.css" rel="stylesheet" type="text/css" />
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <link rel="stylesheet" media="screen" href="calendar.css"  />
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+    $(document).ready(function() {
+    $("#datepicker2").datepicker();
+  });
+  </script>
+  <link href="select2.css" rel="stylesheet"/>
+    <script src="jquery-1.8.0.min.js"></script>
+    <script src="select2.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#states").select2();   
+        });
+    </script>
+</head>
+<body>
+<div class="konten">
+<div class="Menu">
+<ul id="pilihan">
+<li id="log"><img src="ing/lokec.PNG" style="width:28px"></li>
+<a href=""><li id="home">HOME</li></a>
+<a href=""><li id="shop">SHOP</li></a>
+<a href=""><li id="land">MINGGO LAND</li></a>
+<a href=""><li id="about">ABOUT US</li></a>
+</ul>
+</div>
 
-# C extensions
-*.so
+<div class="tengah">
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+<div class="banner_back">
+<div class="slider2">
+ <div id="sliderFrame">
+        <div id="slider">
